@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sreshth Tiwari</title>
+  </head>
+  <body>
+    <div id="rest">
+      <div class="text" id="home">
+        <div class="content">
+          <h1>
+            <span class="nodelay">
+              I Will Build A Professional Website For Your Tuition Center.</span
+            >
+          </h1>
+          <a class="genb dark delay" href="https://calendly.com/sreshth7/30min"
+            >For Free</a
+          >
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/132a574215.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      ::-webkit-scrollbar {
+        width: 0;
+      }
+      @keyframes fadein {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      @keyframes fadein_delay {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      @keyframes fadein_mostdelay {
+        0% {
+          opacity: 0;
+        }
+        70% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      #rest {
+        animation: fadein 2s;
+        display: flex;
+        min-height: 100vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .nodelay {
+        font-weight: 400;
+      }
+      #rest .delay {
+        animation: fadein_delay 3s;
+      }
+      .content h1 {
+        margin-bottom: 30px;
+      }
+      .genb {
+        border: 3px solid white;
+        outline: none;
+        color: white;
+        text-decoration: none;
+        padding: 9px 20px;
+        background-color: transparent;
+        border-radius: 20px;
+        font-size: 26px;
+        font-weight: 700;
+        transition: 0.3s ease;
+      }
+      .genb:hover {
+        background-color: white;
+        color: black;
+      }
+      .dark {
+        border: 3px solid black;
+        color: black;
+      }
+      .dark:hover {
+        background-color: black;
+        color: white;
+      }
+    </style>
+    <script type="text/javascript">
+      //loader
+      window.onload = function () {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("rest").style.opacity = "1";
+      };
+    </script>
+  </body>
+</html>
